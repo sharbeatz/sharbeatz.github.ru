@@ -1,0 +1,32 @@
+{% extends 'base.html' %} # вызываем файл, где хранится шаблон
+  
+{% block title %}
+Вход
+{% endblock %}  # закрываем блок
+
+{% block body %}
+
+<div class="container col-3">
+<main class="form-signin w-100 m-auto">
+  <form method="POST" action="/login">
+    <img class="mb-4" src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-znachok-pristavki-na-prozrachnom-fone-9.jpg" alt="" width="40">
+    <h1 class="h3 mb-3 fw-normal">Пожалуйста, войдите</h1>
+
+    <div class="form-floating mb-3">
+      <input type="email" name="login" class="form-control" id="login" placeholder="name@example.com">
+      <label for="login">Эл. адрес</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="password" name="floatingPassword" class="form-control" id="floatingPassword" placeholder="Пароль">
+      <label for="floatingPassword">Пароль</label>
+    </div>
+
+
+    <button class="btn btn-primary w-100 py-2" type="submit">Войти</button>
+    <p class="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
+  </form>
+</main>
+</div>
+
+
+{% endblock %} # закрываем блок

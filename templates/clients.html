@@ -1,0 +1,119 @@
+{% extends 'base.html' %} # вызываем файл, где хранится шаблон
+  
+{% block title %}
+Вход
+{% endblock %}  # закрываем блок
+  
+
+{% block body %}
+
+
+  <main>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12">
+                <input class="form-control" id="myInput" type="text" placeholder="Поиск..">
+            </div>
+        </div>
+
+        <div class="row gx-5 gy-5 mt-2" id="myList">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://womenintheboardroom.com/wp-content/uploads/2022/10/google-logo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Google</h5>
+                        <p class="card-text">Google — американская технологическая компания, специализирующаяся на широком спектре ИТ-продуктов и интернет-сервисов.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://novator.io/wp-content/uploads/2018/08/official-facebook-logo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook</h5>
+                        <p class="card-text">Facebook — это социальная сеть, функционирующая с февраля 2004 года.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65662bf54ec6635201adac50_65664f3a654b6f493a7fa146/scale_1200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Telegram</h5>
+                        <p class="card-text">Telegram — кроссплатформенный мессенджер с функциями, позволяющий обмениваться текстовыми, голосовыми и видеосообщениями, стикерами и фотографиями, файлами многих форматов.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://grizly.club/uploads/posts/2023-02/1675409570_grizly-club-p-instagramm-znachok-klipart-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Instagram</h5>
+                        <p class="card-text">Instagram - социальная сеть для обмена фотографиями и видео. Приложение позволяет пользователям загружать медиа, которые можно редактировать с помощью фильтров, организовывать по хэштегам и ассоциировать с местоположением — с помощью географических тегов.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://cdn.kanobu.ru/articles/pics/tmp/images/2024/1/9/d5291368-2a19-402d-afd0-d152ef1e20e0.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Steam</h5>
+                        <p class="card-text">Steam — онлайн-сервис цифрового распространения компьютерных игр и программ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://driver-id.ru/wp-content/uploads/2021/08/mozilla_firefox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Firefox</h5>
+                        <p class="card-text">Firefox — свободный веб-браузер, флагманский программный продукт сообщества.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://s3.wi-fi.ru/cp3o/5l046fvayzs2l69ji7dglwg6sqxm?response-content-type=image/jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valve</h5>
+                        <p class="card-text">Valve Corporation — американская компания-разработчик компьютерных игр, создавшая серии компьютерных игр Half-Life, Portal, Counter-Strike, Team Fortress, Day of Defeat, Left 4 Dead, Ricochet, Alien Swarm и Dota 2; игровые движки GoldSrc, Source, Source 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                <div class="card" style="max-width: 18rem;">
+                    <img src="https://static.mk.ru/upload/entities/2023/05/27/00/articles/facebookPicture/25/38/d9/7b/4366560d523a7f2bf61da674d30832f0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ozon</h5>
+                        <p class="card-text">Ozon — российский маркетплейс.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+
+                $("#myList .list-item").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+{% endblock %} # закрываем блок
